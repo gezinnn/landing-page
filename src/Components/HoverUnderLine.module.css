@@ -1,4 +1,3 @@
-/* HoverUnderLine.module.css */
 .hoverUnderLine {
     position: relative;
     display: inline-block;
@@ -16,5 +15,5 @@
 }
 
 .hoverUnderLine:hover::after {
-    background-color: #007bff; /* Cor da linha ao passar o mouse */
+    background-color: #fff; 
 }

@@ -1,6 +1,5 @@
-// HoverUnderLine.js
 import React from 'react';
-import styles from './HoverUnderLine.module.css'; // Verifique se o arquivo de estilos está sendo importado corretamente
+import styles from './HoverUnderLine.module.css'; 
 
 const HoverUnderLine = ({ children }) => {
     return (
