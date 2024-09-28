@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./LandingPage.module.css";
-import HoverUnderLine from "../../Components/HoverUnderLine";
+import HoverUnderLine from "../../Components/UnderLine/HoverUnderLine";
+import CardProjeto from "../../Components/CardsProjetos/CardProjeto";
 
 export default function LandingPage() {
   return (
@@ -23,7 +24,9 @@ export default function LandingPage() {
       </div>
 
       <div className={styles.contentMain}>
-        <div className={styles.picture}></div>
+        <div className={styles.picture}>
+          
+        </div>
         <div className={styles.text}>
           <p className={styles.sobremim}>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
@@ -47,6 +50,8 @@ export default function LandingPage() {
       </div>
       <section className={styles.projetos}>
         <p className={styles.title}>Projetos</p>
+          <CardProjeto/>
+
       </section>
       <section className={styles.sec2}></section>
     </div>
